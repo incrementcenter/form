@@ -1,16 +1,10 @@
-
-
-
 * {
     margin: 0;
     padding: 0;
 }
 
-
-
 .form {
     width: 30%;
-    /* background-color - էլէմենտին հետևի ֆոն տալու համար*/
     background-color: #9BBB2C;
     margin: 35px auto;
     padding: 25px;
