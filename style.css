@@ -42,4 +42,7 @@ input {
     border-radius: 3px;
 }
 
+.address-bar {
+    max-width: 50%;
+}
 /* FROM DESIGN */
