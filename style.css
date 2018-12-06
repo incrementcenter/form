@@ -1,0 +1,45 @@
+/* Բոլոր թեգերի համար
+* margin և padding հատկանիշները 0-ացնում ենք, ավելորդ դիզայնը հանելու համար
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* FROM DESIGN */
+/* Դիմում ենք այն թեգերին, որոնք ունեն form class-ը*/
+.form {
+    width: 30%;
+    /* background-color - էլէմենտին հետևի ֆոն տալու համար*/
+    background-color: #9BBB2C;
+    margin: 35px auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.section-title {
+    color: #384213;
+    margin: 15px 0;
+}
+
+.form-field {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.input-title {
+    display: inline-block;
+    width: 30%;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    width: 50%;
+    border-radius: 3px;
+}
+
+/* FROM DESIGN */

@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Green form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form">
+    <form>
+        <section>
+            <h3 class="section-title">
+                Step 1: Your details
+            </h3>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Name</span>
+                    <input type="text" name="name" placeholder="First and last name">
+                </label>
+            </div>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Email</span>
+                    <input type="email" name="email" placeholder="example@domain.com">
+                </label>
+            </div>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Phone</span>
+                    <input type="text" name="phone" placeholder="Eg. +447500000000">
+                </label>
+            </div>
+        </section>
+        <section>
+            <h3 class="section-title">
+                Step 2: Delivery address
+            </h3>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Address</span>
+                    <textarea name="address"></textarea>
+                </label>
+            </div>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Post code</span>
+                    <input type="text" name="postCode">
+                </label>
+            </div>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Country</span>
+                    <input type="text" name="country">
+                </label>
+            </div>
+        </section>
+        <section>
+            <h3 class="section-title">
+                Step 3: Card details
+            </h3>
+            <div class="form-field">
+                <span class="input-title">Card type</span>
+                <div class="card-types">
+                    <label>
+                        <input type="radio" name="cardType" value="visa">
+                        <img src="../green-form/images/visa.png" alt="visa">
+                        <span>VISA</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="cardType" value="amex">
+                        <img src="../green-form/images/amex.png" alt="amex">
+                        <span>AmEx</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="cardType" value="mastercard">
+                        <img src="../green-form/images/master.png" alt="mastercard">
+                        <span>Mastercard</span>
+                    </label>
+                </div>
+            </div>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Card number</span>
+                    <input type="text" name="cardNumber">
+                </label>
+            </div>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Security code</span>
+                    <input type="text" name="securityCode">
+                </label>
+            </div>
+            <div class="form-field">
+                <label>
+                    <span class="input-title">Name on card</span>
+                    <input type="text" name="nameOnCard" placeholder="Exact name as on the card">
+                </label>
+            </div>
+        </section>
+        <section>
+            <!-- btn goes for button -->
+            <button type="submit" class="submit-btn">BUY IT!</button>
+        </section>
+    </form>
+</div>
+
+</body>
+</html>
