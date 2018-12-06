@@ -1,16 +1,10 @@
-/* Բոլոր թեգերի համար
-* margin և padding հատկանիշները 0-ացնում ենք, ավելորդ դիզայնը հանելու համար
-*/
 * {
     margin: 0;
     padding: 0;
 }
 
-/* FROM DESIGN */
-/* Դիմում ենք այն թեգերին, որոնք ունեն form class-ը*/
 .form {
     width: 30%;
-    /* background-color - էլէմենտին հետևի ֆոն տալու համար*/
     background-color: #9BBB2C;
     margin: 35px auto;
     padding: 25px;
@@ -45,4 +39,3 @@ input {
 .address-bar {
     max-width: 50%;
 }
-/* FROM DESIGN */
