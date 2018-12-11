@@ -1,15 +1,15 @@
-function f(x) {
+function wordsCapitalize(x) {
 
     var words = x.split(" ");
     for (var i = 0; i < words.length; i++) {
-        words[i] = f1(words[i]);
+        words[i] = capitalize(words[i]);
     }
     return words.join(" ");
 }
 
 
-console.log(f("sako tolmaoghlian"));
+console.log(wordsCapitalize("sako tolmaoghlian"));
 
-function f1(str) {
+function capitalize(str) {
     return str[0].toUpperCase() + str.slice(1);
 }
