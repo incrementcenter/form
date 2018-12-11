@@ -279,3 +279,16 @@ function checkCountry(str) {
         return country.name.toLowerCase() === str
     });
 }
+
+function insertSpace(str, count){
+    if(count >= str.length){
+        return str;
+    }
+    var strArr = str.split('');
+    var result = "";
+    while(strArr.length > count){
+        result += strArr.splice(0, count).join('') + " ";
+    }
+    result += strArr.join('');
+    return result;
+}
