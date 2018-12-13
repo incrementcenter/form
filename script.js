@@ -280,15 +280,32 @@ function checkCountry(str) {
     });
 }
 
-function insertSpace(str, count){
-    if(count >= str.length){
+function insertSpace(str, count) {
+    if (count >= str.length) {
         return str;
     }
     var strArr = str.split('');
     var result = "";
-    while(strArr.length > count){
+    while (strArr.length > count) {
         result += strArr.splice(0, count).join('') + " ";
     }
     result += strArr.join('');
     return result;
 }
+
+var cardTypes = {
+    "3456": "amex",
+    "4": "visa",
+    "5": "master",
+    cardnumber: function (number) {
+        var x = number[0];
+        if (this[x] != undefined) {
+            return this[x];
+        }
+        return null;
+
+    }
+
+};
+
+console.log(cardTypes.cardnumber("3"));
