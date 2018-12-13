@@ -294,7 +294,7 @@ function insertSpace(str, count) {
 }
 
 var cardTypes = {
-    "3456": "amex",
+    "3": "amex",
     "4": "visa",
     "5": "master",
     cardnumber: function (number) {
